@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: Orders
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/fdOrder
+server:
+  port: 8802
+
+orders:
+  message: "this is default application properties"

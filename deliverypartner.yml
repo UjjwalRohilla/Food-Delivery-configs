@@ -1,0 +1,12 @@
+server:
+  port: 8801
+
+spring:
+  application:
+    name: "deliverypartner"
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/fdDeliveryPartner
+
+deliverypartner:
+  message: "this is default application properties"
