@@ -9,4 +9,4 @@ eureka:
     fetchRegistry: true
     registerWithEureka: true
     serviceUrl:
-      defaultZone: http://http://localhost:9901/eureka/
+      defaultZone: http://localhost:9901/eureka/
