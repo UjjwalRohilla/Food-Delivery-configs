@@ -9,4 +9,4 @@ spring:
       uri: mongodb://localhost:27017/fdCustomer
 
 customer:
-  message: "this is default application properties"
+  message: "this is dev application properties"
