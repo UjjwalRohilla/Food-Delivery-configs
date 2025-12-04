@@ -1,0 +1,12 @@
+
+server:
+  port: 9903
+
+eureka:
+  instance:
+    preferIpAddress: true
+  client:
+    fetchRegistry: true
+    registerWithEureka: true
+    serviceUrl:
+      defaultZone: http://http://localhost:9901/eureka/
