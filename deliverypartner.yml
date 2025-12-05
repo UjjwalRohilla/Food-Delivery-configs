@@ -8,5 +8,25 @@ spring:
     mongodb:
       uri: mongodb://localhost:27017/fdDeliveryPartner
 
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  health:
+    readiness-state:
+      enabled: true
+    liveness-state:
+      enabled: true
+  endpoint:
+    shutdown:
+      access: unrestricted
+    health:
+      probes:
+        enabled: true
+  info:
+    env:
+      enabled: true
+
 deliverypartner:
   message: "this is default application properties"
