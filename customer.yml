@@ -30,3 +30,7 @@ management:
 
 customer:
   message: "this is default application properties"
+
+jwt:
+  secret: "151152f4967ab635bf45ed8efc073ef7626ce6a7d9cda4f8bc3f8857be97efaf"
+  expiration: 3600000
