@@ -5,6 +5,7 @@ spring:
     name: restaurant
   data:
     mongodb:
+      auto-index-creation: true
       uri: mongodb://localhost:27017/fdRestaurant
 
 management:
@@ -29,3 +30,4 @@ management:
 
 restaurant:
   message: "this is restaurant application properties"
+
